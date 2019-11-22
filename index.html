@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+        <title>WeUI</title>
+        <!-- 引入 WeUI -->
+        <style type="text/css">
+          @import url("weui.min.css");
+        </style>
+        <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+
+    </head>
+    <body>
+        <!-- 使用 -->
+      <!--   <a href="javascript:;" class="weui-btn weui-btn_primary">绿色按钮</a> -->
+
+
+<div class="page">
+    <div class="page__bd" style="height: 100%;">
+        <div class="weui-tab">
+            <div class="weui-navbar">
+                <div class="weui-navbar__item weui-bar__item_on page__bd page__bd_spacing">
+                <div class="page__bd page__bd_spacing">
+                  <a href="javascript:;" class="weui-btn weui-btn_default" id="showIOSDialog1"><i class="weui-icon-search"></i>搜索</a>
+                  </div>
+                </div>
+                <div class="weui-navbar__item" id="showIOSActionSheet">
+                    选项二
+                </div>
+                <div class="weui-navbar__item" id="showToast">
+                    选项三
+                </div>
+            </div>
+             
+      </div>
+
+            <div class="weui-tab__panel">
+                    <div class="page">
+                    <div class="page__bd page__bd_spacing">
+                        <div class="weui-progress">
+                            <div class="weui-progress__bar">
+                                <div class="weui-progress__inner-bar js_progress" style="width: 0%;"></div>
+                            </div>
+                            <a href="javascript:;" class="weui-progress__opr">
+                                <i class="weui-icon-cancel"></i>
+                            </a>
+                        </div>
+                            <a  class="weui-btn weui-btn_primary" id="btnUpload">上传</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="weui-tab__panel" >
+               <div class="weui-cells__title">待唱的歌曲</div>
+                <div class="weui-cells">
+                    <a class="weui-cell weui-cell_access" >
+                         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:16px;display:block">   
+                        <div class="weui-cell__bd">
+                            <p>You're beautiful</p>
+                        </div>
+                        <div class="weui-cell__ft">说明文字</div>
+                    </a>
+                    <a class="weui-cell weui-cell_access" href="javascript:;">
+                        <div class="weui-cell__bd">
+                            <p>take my hand</p>
+                        </div>
+                        <div class="weui-cell__ft">说明文字</div>
+                    </a>
+                    <a class="weui-cell weui-cell_access" >
+                        you raise me up
+                    </a>
+                    <a class="weui-cell weui-cell_access" >
+                        call me maybe
+                    </a>
+                     <a class="weui-cell weui-cell_access" >
+                        吻别
+                    </a>
+                     <a class="weui-cell weui-cell_access" >
+                        爱情买卖
+                    </a>
+                </div>
+                <div class="weui-cells__title">已经唱过的歌曲</div>
+                     <a class="weui-cell weui-cell_access" >
+                        成都
+                    </a>
+                    <a class="weui-cell weui-cell_access" >
+                        朋友
+                    </a>
+                    <a class="weui-cell weui-cell_access" >
+                        后来
+                    </a>
+                   
+                    <a class="weui-cell weui-cell_access" >
+                        悟空
+                    </a>
+                    <a class="weui-cell weui-cell_access" >
+                        猴哥
+                    </a>
+                    <a class="weui-cell weui-cell_access" >
+                        逆战
+                    </a>
+                    <a class="weui-cell weui-cell_access" >
+                        老男孩
+                    </a>
+                    <a class="weui-cell weui-cell_access" >
+                        童话镇
+                    </a>
+                    <a class="weui-cell weui-cell_access" >
+                        奇迹再现
+                    </a>
+                    <a class="weui-cell weui-cell_access" >
+                        权御天下
+                    </a>
+                    <a class="weui-cell weui-cell_access" >
+                        九九八十一
+                    </a>
+                    <a class="weui-cell weui-cell_access" >
+                        寂寞沙洲冷
+                    </a>
+                    <a class="weui-cell weui-cell_access" >
+                        愿得一人心
+                    </a>
+                    <a class="weui-cell weui-cell_access" >
+                        爱情呼叫转移
+                    </a>
+                    <a class="weui-cell weui-cell_access" >
+                        夜空中最亮的星
+                    </a>
+                    <a class="weui-cell weui-cell_access" >
+                        南山南
+                    </a>
+                    <a class="weui-cell weui-cell_access" >
+                        斑马斑马
+                    </a>
+                    <a class="weui-cell weui-cell_access" >
+                        平凡之路
+                    </a>
+                    <a class="weui-cell weui-cell_access" >
+                        生僻字
+                    </a>
+                    <a class="weui-cell weui-cell_access" >
+                        挪威的森林
+                    </a>
+                    <a class="weui-cell weui-cell_access" >
+                        突然的自我
+                    </a>
+                    <a class="weui-cell weui-cell_access" >
+                        the phoenix
+                    </a>
+                    <a class="weui-cell weui-cell_access" >
+                        take me to your heart
+                    </a>
+                     <a class="weui-cell weui-cell_access" >
+                        
+                    </a>
+                    <a class="weui-cell weui-cell_access" >
+                        
+                    </a>
+                    <a class="weui-cell weui-cell_access" >
+                        
+                    </a>
+
+
+            </div>
+            <div class="weui-flex">
+                    <div class="weui-flex__item"><div class="placeholder">栅格布局</div></div>
+            </div>
+            <br><br><br>
+
+            <div class="weui-tab__panel" >
+                 
+                <div class="weui-flex">
+                    <div class="weui-flex__item"><div class="placeholder">超</div></div>
+                    <div class="weui-flex__item"><div class="placeholder">你</div></div>
+                    <div class="weui-flex__item"><div class="placeholder">给</div></div>
+                    <div class="weui-flex__item"><div class="placeholder">爷</div></div>
+                    <div class="weui-flex__item"><div class="placeholder">爬</div></div>
+                </div>
+
+                <i class="weui-icon-success weui-icon_msg"></i>
+                 <i class="weui-icon-waiting weui-icon_msg"></i>
+                 <i class="weui-icon-info weui-icon_msg"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  <!--BEGIN actionSheet-->
+    <div>
+        <div class="weui-mask" id="iosMask" style="display: none"></div>
+        <div class="weui-actionsheet" id="iosActionsheet">
+            <div class="weui-actionsheet__title">
+                <p class="weui-actionsheet__title-text">胜负与强弱无关,唯与信念相伴。</p>
+            </div>
+            <div class="weui-actionsheet__menu">
+                <div class="weui-actionsheet__cell">坤坤,来solo</div>
+                <div class="weui-actionsheet__cell">超,你给爷爬</div>
+                <div class="weui-actionsheet__cell weui-actionsheet__cell_warn">超,敢不敢跟我比划比划</div>
+            </div>
+            <div class="weui-actionsheet__action">
+                <div class="weui-actionsheet__cell" id="iosActionsheetCancel">离开该世界线</div>
+            </div>
+        </div>
+    </div>
+
+    <!--BEGIN toast-->
+    <div id="toast" style="display: none;">
+        <div class="weui-mask_transparent"></div>
+        <div class="weui-toast">
+            <i class="weui-icon-success-no-circle weui-icon_toast"></i>
+            <p class="weui-toast__content">已完成</p>
+        </div>
+    </div>
+
+
+
+    <div id="dialogs">
+        <!--BEGIN dialog1-->
+        <div class="js_dialog" id="iosDialog1" style="display: none;">
+            <div class="weui-mask"></div>
+            <div class="weui-dialog">
+                <div class="weui-dialog__bd">你以为我是搜索,其实我是弹窗哒</div>
+                <div class="weui-dialog__ft">
+                    <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_default">爬</a>
+                    <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary">知道了</a>
+                </div>
+            </div>
+        </div>
+        <!--END dialog1-->
+    </div>
+</div>
+
+
+    <div class="page__ft"  align="center >
+        <a href="javascript:home() "><img src="footer.png" /></a>
+    </div>
+</div>
+<script type="text/javascript">
+     // toast
+    $(function(){
+        var $toast = $('#toast');
+        $('#showToast').on('click', function(){
+            if ($toast.css('display') != 'none') return;
+            $toast.fadeIn(100);
+            setTimeout(function () {
+                $toast.fadeOut(100);
+            }, 2000);
+        });
+    });
+
+    $(function(){
+        var $iosDialog1 = $('#iosDialog1'),
+            $iosDialog2 = $('#iosDialog2'),
+            $androidDialog1 = $('#androidDialog1'),
+            $androidDialog2 = $('#androidDialog2');
+        $('#dialogs').on('click', '.weui-dialog__btn', function(){
+            $(this).parents('.js_dialog').fadeOut(200);
+        });
+        $('#showIOSDialog1').on('click', function(){
+            $iosDialog1.fadeIn(200);
+        });
+        $('#showIOSDialog2').on('click', function(){
+            $iosDialog2.fadeIn(200);
+        });
+        $('#showAndroidDialog1').on('click', function(){
+            $androidDialog1.fadeIn(200);
+        });
+        $('#showAndroidDialog2').on('click', function(){
+            $androidDialog2.fadeIn(200);
+        });
+    });
+
+    $(function(){
+         $('.weui-navbar__item').on('click', function () {
+            $(this).addClass('weui-bar__item_on').siblings('.weui-bar__item_on').removeClass('weui-bar__item_on');
+        });
+
+        var $progress = $('.js_progress'),
+            $btnUpload = $('#btnUpload');
+        var progress = 0;
+        function next() {
+            if(progress > 100){
+                progress = 0;
+                $btnUpload.removeClass('weui-btn_disabled');
+                return;
+            }
+            $progress.css({width: progress + '%'});
+            progress = ++progress;
+            setTimeout(next, 20);
+        }
+        $btnUpload.on('click', function(){
+            if ($btnUpload.hasClass('weui-btn_disabled')) return;
+            $btnUpload.addClass('weui-btn_disabled');
+            next();
+        });
+
+         var $iosActionsheet = $('#iosActionsheet');
+        var $iosMask = $('#iosMask');
+        function hideActionSheet() {
+            $iosActionsheet.removeClass('weui-actionsheet_toggle');
+            $iosMask.fadeOut(200);
+        }
+        $iosMask.on('click', hideActionSheet);
+        $('#iosActionsheetCancel').on('click', hideActionSheet);
+        $("#showIOSActionSheet").on("click", function(){
+            $iosActionsheet.addClass('weui-actionsheet_toggle');
+            $iosMask.fadeIn(200);
+        });
+    });
+</script>
+
+
+<div class="page">
+    <div class="page__bd page__bd_spacing">
+        <div class="weui-footer weui-footer_fixed-bottom">
+            <p class="weui-footer__links">
+                <a href="https://user.qzone.qq.com/1349008757/main" class="weui-footer__link">ruide的空间</a>
+                <a href="javascript:home();" class="weui-footer__link">首页</a>
+            </p>
+            <p class="weui-footer__text">Copyright &copy; 2019-future ruide.io</p>
+        </div>
+    </div>
+</div>
+    </body>
+</html>
